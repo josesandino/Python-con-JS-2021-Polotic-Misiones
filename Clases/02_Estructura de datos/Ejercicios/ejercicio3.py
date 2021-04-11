@@ -1,6 +1,6 @@
 #Escribe un programa en Python que acepte una cadena de caracteres y cuente el tamaño de la cadena y cuantas veces aparece la letra A (mayuscula y minúscula)
 
-cadena = input("Escribe una frase: ")
+cadena = str(input("Escribe una frase: "))
 cadena = cadena.upper()
 
 longCad = len(cadena)
